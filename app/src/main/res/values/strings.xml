@@ -4,4 +4,6 @@
     <string name="username">Имя пользователя</string>
     <string name="ok">ОК</string>
     <string name="clean">Очистить</string>
+    <string name="resultPt1">\"  Подписка на рассылку успешно оформлена для пользователя \"</string>
+    <string name="resultPt2">\" на электронный адрес\"</string>
 </resources>

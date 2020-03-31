@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
                 String username = usernameEdtx.getText().toString();
                 String email = emailEdtx.getText().toString();
-                String result = "  Подписка на рассылку успешно оформлена для пользователя "
-                        +username+" на электронный адрес"+email;
+                String result = getString(R.string.resultPt1)
+                        +username+getString(R.string.resultPt2)+email;
                 resultTxt.setText(result);
             }
         });
